@@ -9,9 +9,6 @@ from openpyxl.styles import PatternFill, Border, Side, numbers
 import re
 
 import streamlit as st
-from PyInstaller.utils.hooks import copy_metadata
-
-datas = copy_metadata("streamlit")
 
 st.title("AR Calendar Auto Complete")
 years = list(range(2000, 2081))
